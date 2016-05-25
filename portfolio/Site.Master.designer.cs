@@ -31,13 +31,22 @@ namespace portfolio {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl home;
         
         /// <summary>
-        /// products control.
+        /// about control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl products;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl about;
+        
+        /// <summary>
+        /// projects control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl projects;
         
         /// <summary>
         /// services control.
@@ -47,15 +56,6 @@ namespace portfolio {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl services;
-        
-        /// <summary>
-        /// about control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl about;
         
         /// <summary>
         /// contact control.
