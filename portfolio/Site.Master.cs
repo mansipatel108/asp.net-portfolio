@@ -11,7 +11,30 @@ namespace portfolio
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            addActiveClass();
+        }
 
+        private string addActiveClass()
+        {
+            switch (Page.Title)
+            {
+                case "Home Page":
+                    home.Attributes.Add("class", "active");
+                    break;
+                case "Projects Page":
+                    projects.Attributes.Add("class", "active");
+                    break;
+                case "Services Page":
+                    services.Attributes.Add("class", "active");
+                    break;
+                case "About Us Page":
+                    about.Attributes.Add("class", "active");
+                    break;
+                case "Contact Page":
+                    contact.Attributes.Add("class", "active");
+                    break;
+            }
+            return Page.Title;
         }
     }
 }
