@@ -2,7 +2,7 @@
     background-image: url("../images/book.jpg");
     background-repeat:space;
     background-size: auto;
-   
+    background-color: black;
 }
 /* Section styles  */
             section {
