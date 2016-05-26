@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url("../images/book.jpg");
+    background-image: url("~/images/book.jpg");  
     background-repeat: space;
     background-size: cover;
     background-color: black;
