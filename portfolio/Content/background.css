@@ -1,0 +1,102 @@
+﻿body {
+    background-image: url("../images/book.jpg");
+    background-repeat:space;
+    background-size: auto;
+    background-color: black;
+}
+/* Section styles  */
+            section {
+        padding-top: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+    }
+
+/* Paragraph   */
+.aboutme p{
+    padding-top: 35px;
+    color: whitesmoke;
+    font-weight: 200;
+    letter-spacing: 3px;
+    font-family:  'Times New Roman', Times, serif;
+    margin: auto;
+    text-align: justify;
+    font-size: 22px;
+    width: 80%;
+    position: relative;
+      opacity: .6;
+     position: relative;
+    }
+
+/* Links */ 
+ p a:link {
+    color: white;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 22px;
+}
+
+ p a:visited {
+    color: white;
+    text-decoration: none;
+}
+ .img-rounded {
+       margin-left: 50px;
+       margin-top: 50px;
+        border: 3px solid black;
+        border-radius: 100%;
+        }
+
+div.row p{
+       text-decoration: none;
+       padding-left: 60px;
+       font-size: 15px;
+       color: whitesmoke;
+       font-weight: 200;
+       font-family: 'Times New Roman', Times, serif; 
+         }
+
+div.row h5{
+       text-decoration: none;
+       padding-left: 60px;
+       font-size: 20px;
+       font-weight: 900;
+       color: whitesmoke;
+       font-family: 'Times New Roman', Times, serif; 
+         }
+
+div.row a:link {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif; 
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+div.row a:visited {
+    font-size: 15px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif; 
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 15px;
+}
+/* Form  */
+ form {
+    font-family: 'Times New Roman', Times, serif;
+	padding: 0 2% 0 2%;
+    align:"center";
+	margin-top: 2%;
+    }
+    
+label, input{
+        font-family: 'Times New Roman', Times, serif;
+        letter-spacing:2px;
+        font-size:1.4em;
+        color:#E5EFFF;
+    }
+contact {
+   align:"center";
+    }
