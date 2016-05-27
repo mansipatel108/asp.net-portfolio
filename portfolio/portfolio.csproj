@@ -71,6 +71,16 @@
     <Content Include="css\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Images\book.jpg" />
+    <Content Include="Images\images4.jpg" />
+    <Content Include="Images\lesso12.png" />
+    <Content Include="Images\my.jpg" />
+    <Content Include="Images\payment.png" />
+    <Content Include="Images\port1.jpg" />
+    <Content Include="Images\resume.png" />
+    <Content Include="Images\todos.png" />
+    <Content Include="Images\tweeter.png" />
+    <Content Include="Images\yt.jpg" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -153,7 +163,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
-    <Folder Include="images\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
