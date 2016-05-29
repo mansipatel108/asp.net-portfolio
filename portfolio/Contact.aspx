@@ -5,7 +5,7 @@
     <section id="contact" class="contact">
         <div class="contact">
             <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
+                <div class="col-md-4 col-md-offset-6">
                     <h2>Contact Me...</h2>
                     <hr class="small">
                 </div>
@@ -17,7 +17,7 @@
 
     <main class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-4 col-md-offset-6">
 
                 <form action="mailto:mansipatel896@gmail.com" enctype="text/plain" method="post">
                     <form class="form-horizontal">

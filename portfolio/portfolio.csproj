@@ -73,6 +73,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\book.jpg" />
     <Content Include="Images\images4.jpg" />
+    <Content Include="Images\laptop.jpg" />
     <Content Include="Images\lesso12.png" />
     <Content Include="Images\my.jpg" />
     <Content Include="Images\payment.png" />

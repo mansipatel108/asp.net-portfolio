@@ -72,7 +72,7 @@ div.row a:link {
     font-family: 'Times New Roman', Times, serif; 
     text-decoration: none;
     font-weight: 200;
-    font-size: 15px;
+    
 }
 
 div.row a:visited {
@@ -81,22 +81,5 @@ div.row a:visited {
     font-family: 'Times New Roman', Times, serif; 
     text-decoration: none;
     font-weight: 200;
-    font-size: 15px;
-}
-/* Form  */
- form {
-    font-family: 'Times New Roman', Times, serif;
-	padding: 0 2% 0 2%;
-    align:"center";
-	margin-top: 2%;
-    }
     
-label, input{
-        font-family: 'Times New Roman', Times, serif;
-        letter-spacing:2px;
-        font-size:1.4em;
-        color:#E5EFFF;
-    }
-contact {
-   align:"center";
-    }
+}

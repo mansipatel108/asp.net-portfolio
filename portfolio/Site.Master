@@ -21,7 +21,7 @@
 
      <div class="blog-masthead">
       <div class="container">
-        <nav class="blog-nav">
+        <nav id="MenuPanel" class="blog-nav">
         <ul class="nav navbar-nav navbar-right">
                     <li id="home" runat="server"><a class="blog-nav-item" href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
                     <li id="about" runat="server"><a class="blog-nav-item" href="About.aspx"><i class="fa fa-info fa-lg"></i> About Me</a></li>

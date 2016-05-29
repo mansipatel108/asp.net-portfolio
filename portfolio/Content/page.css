@@ -1,123 +1,42 @@
 ﻿body {
-    background-image: url("../Images/book.jpg");
+    background-image: url("../Images/laptop.jpg");
     background-repeat: space;
     background-size: cover;
     background-color: black;
 }
-/* Section styles  */
-section {
-    padding-top: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    letter-spacing: 2px;
-    font-size: 1.4em;
-    color: #E5EFFF;
-}
 
 /* Header  */
-.header {
-    color: white;
-    margin-left: 50px;
-    font-family: 'Arvo', serif;
-    font-size: 4em;
-    font-weight: 100;
-    position: relative;
-    margin-top: 15%;
-    letter-spacing: 8px;
+div.header h1{
+    color: #280000;
+    font-family: Papyrus, fantasy;
+    font-size: 30px;
+    font-weight:900;
+    margin-top: 25%;
+    letter-spacing: 4px;
+}
+div.header h3 {
+     color: darkblue;
+    font-family:Papyrus, fantasy;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 5%;
+    letter-spacing: 2px;
 }
 
-.header2 {
-    color: ghostwhite;
-    margin-left: 50px;
-    font-family: 'Arvo', serif;
-    font-size: 2em;
-    font-weight: 400;
-    position: relative;
-    margin-top: 1%;
-    letter-spacing: 7px;
-}
 
-/* Paragraph   */
-.aboutme p {
-    padding-top: 35px;
-    color: whitesmoke;
-    font-weight: 200;
-    letter-spacing: 3px;
-    font-family: 'Times New Roman', Times, serif;
-    margin: auto;
-    text-align: justify;
-    font-size: 22px;
-    width: 80%;
-    position: relative;
-}
-
-/* Links */
-p a:link {
-    color: white;
-    text-decoration: none;
-    font-weight: 200;
-    font-size: 22px;
-}
-
-p a:visited {
-    color: white;
-    text-decoration: none;
-}
-
-.img-rounded {
-    margin-left: 50px;
-    margin-top: 50px;
-    border: 3px solid black;
-    border-radius: 100%;
-}
-
-div.row p {
-    text-decoration: none;
-    padding-left: 60px;
-    font-size: 15px;
-    color: whitesmoke;
-    font-weight: 200;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-div.row h5 {
-    text-decoration: none;
-    padding-left: 60px;
-    font-size: 20px;
-    font-weight: 900;
-    color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-div.row a:link {
-    font-size: 15px;
-    color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    font-weight: 200;
-    font-size: 15px;
-}
-
-div.row a:visited {
-    font-size: 15px;
-    color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif;
-    text-decoration: none;
-    font-weight: 200;
-    font-size: 15px;
-}
 /* Form  */
 form {
     font-family: 'Times New Roman', Times, serif;
     padding: 0 2% 0 2%;
     align: "center";
-    margin-top: 2%;
+    margin-top: 5%;
 }
 
 label, input {
     font-family: 'Times New Roman', Times, serif;
     letter-spacing: 2px;
     font-size: 1.4em;
-    color: #E5EFFF;
+    color:#380000;
 }
 
 contact {
