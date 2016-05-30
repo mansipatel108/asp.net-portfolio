@@ -18,7 +18,7 @@
         <!-- About me Paragraph  -->
         <div class="row">
             <div class="col-xs-6 col-md-4">
-                    <img src="../Images/mansi1.jpg" width="200" height="200" class="img-circle">
+                    <img src="../Images/mansi.jpg" width="200" height="200" class="img-circle">
                           <h2> Mansi Patel </h2>
                            <h3> Computer Programmer </h3>
                     </div>

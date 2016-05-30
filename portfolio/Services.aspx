@@ -3,7 +3,6 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <link href="Content/background.css" rel="stylesheet" />
     <!--Services Section -->
-    <link rel="stylesheet" type="text/css" href='/Content/services.css' />
     <section id="services" class="services">
         <div class="services">
             <div class="row text-center">

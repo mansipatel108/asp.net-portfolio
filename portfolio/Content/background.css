@@ -1,7 +1,7 @@
 ﻿body {
     background-repeat:space;
     background-size: auto;
-    background-color:#200000;
+    background-color: rgb(254, 237, 214);
 }
 /* Section styles  */
         section {
@@ -9,7 +9,7 @@
         font-family: 'Times New Roman', Times, serif;
         letter-spacing:2px;
         font-size:1.4em;
-        color: #FFFFF0;
+        color:  #000066;
     }
 
 /* Paragraph   */
@@ -24,7 +24,7 @@
        padding-left: 125px;
        font-size: 30px;
        font-weight: 500;
-       color: #FFE4E1;
+       color: #000066;
        font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
  }
   div.row h3{
@@ -32,34 +32,34 @@
      text-decoration: none;
        padding-left: 110px;
        font-size: 20px;
-       color: #FFE4E1;
+       color: #000066;
        font-weight: 200;
        font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
  }
 
 div.row p#para1, p#para2, p#para3{
     padding-top: 35px;
-    letter-spacing: 3px;
-    color: #FFC0CB;
+    letter-spacing: 1px;
+    color: #990066;
        font-weight: 200;
        font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
     margin: auto;
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
     width: 80%;
     position: relative;
     }
 
 /* Links */ 
  p a:link {
-    color: white;
+    color: none;
     text-decoration: none;
     font-weight: 200;
     font-size: 22px;
 }
 
  p a:visited {
-    color: white;
+    color: none;
     text-decoration: none;
 }
  .img-thumbnail {
@@ -72,8 +72,8 @@ div.row p#para1, p#para2, p#para3{
 div.row p{
        text-decoration: none;
        padding-left: 60px;
-       font-size: 16px;
-       color: #FFC0CB;
+       font-size: 17px;
+       color:  #990066;
        font-weight: 200;
        font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
          }
@@ -81,9 +81,9 @@ div.row p{
 p#service,p#service1,p#service2,p#service3 {
        text-decoration: none;
        padding-left: 10px;
-       font-size: 16px;
-       color: #FFC0CB;
-       font-weight: 200;
+       font-size: 18px;
+       color: #990066;
+       font-weight: 300;
        font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
          }
 
@@ -92,7 +92,7 @@ div.row h5{
        padding-left: 60px;
        font-size: 20px;
        font-weight: 200;
-       color: #FFE4E1;
+       color: #000066;
        font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
          }
 
@@ -101,13 +101,13 @@ div.row h4 strong{
        padding-left: 10px;
        font-size: 18px;
        font-weight: 200;
-       color: #FFE4E1;
+       color:  #000066;
        font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
          }
 
 div.row a:link {
     font-size: 15px;
-    color: whitesmoke;
+    color: #000066;
     font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     font-weight: 200;
@@ -116,7 +116,7 @@ div.row a:link {
 
 div.row a:visited {
     font-size: 15px;
-    color: whitesmoke;
+    color:#000066;
     font-family: 'Times New Roman', Times, serif; 
     text-decoration: none;
     font-weight: 200;
