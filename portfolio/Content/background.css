@@ -1,32 +1,53 @@
 ﻿body {
-    background-image: url("../images/book.jpg");
     background-repeat:space;
     background-size: auto;
-    background-color: black;
+    background-color:#200000;
 }
 /* Section styles  */
-            section {
+        section {
         padding-top: 20px;
         font-family: 'Times New Roman', Times, serif;
         letter-spacing:2px;
         font-size:1.4em;
-        color:#E5EFFF;
+        color: #FFFFF0;
     }
 
 /* Paragraph   */
-.aboutme p{
+ img.img-circle{
+      margin-left: 100px;
+       margin-top: 20px;
+       width:250px;
+       height: 250px;
+}
+  div.row h2{
+     text-decoration: none;
+       padding-left: 125px;
+       font-size: 30px;
+       font-weight: 500;
+       color: #FFE4E1;
+       font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+ }
+  div.row h3{
+      margin-top: 5px;
+     text-decoration: none;
+       padding-left: 110px;
+       font-size: 20px;
+       color: #FFE4E1;
+       font-weight: 200;
+       font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
+ }
+
+div.row p#para1, p#para2, p#para3{
     padding-top: 35px;
-    color: whitesmoke;
-    font-weight: 200;
     letter-spacing: 3px;
-    font-family:  'Times New Roman', Times, serif;
+    color: #FFC0CB;
+       font-weight: 200;
+       font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
     margin: auto;
     text-align: justify;
-    font-size: 22px;
+    font-size: 18px;
     width: 80%;
     position: relative;
-      opacity: .6;
-     position: relative;
     }
 
 /* Links */ 
@@ -41,35 +62,53 @@
     color: white;
     text-decoration: none;
 }
- .img-rounded {
+ .img-thumbnail {
        margin-left: 50px;
        margin-top: 50px;
-        border: 3px solid black;
-        border-radius: 100%;
+       width:300px;
+       height: 200px;
         }
 
 div.row p{
        text-decoration: none;
        padding-left: 60px;
-       font-size: 15px;
-       color: whitesmoke;
+       font-size: 16px;
+       color: #FFC0CB;
        font-weight: 200;
-       font-family: 'Times New Roman', Times, serif; 
+       font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
+         }
+
+p#service,p#service1,p#service2,p#service3 {
+       text-decoration: none;
+       padding-left: 10px;
+       font-size: 16px;
+       color: #FFC0CB;
+       font-weight: 200;
+       font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
          }
 
 div.row h5{
        text-decoration: none;
        padding-left: 60px;
        font-size: 20px;
-       font-weight: 900;
-       color: whitesmoke;
-       font-family: 'Times New Roman', Times, serif; 
+       font-weight: 200;
+       color: #FFE4E1;
+       font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
+         }
+
+div.row h4 strong{
+       text-decoration: none;
+       padding-left: 10px;
+       font-size: 18px;
+       font-weight: 200;
+       color: #FFE4E1;
+       font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
          }
 
 div.row a:link {
     font-size: 15px;
     color: whitesmoke;
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     font-weight: 200;
     
@@ -82,4 +121,10 @@ div.row a:visited {
     text-decoration: none;
     font-weight: 200;
     
+}
+span img.img-circle{
+       margin-left: 1px;
+       margin-top: 40px;
+       width: 200px;
+       height: 200px;
 }

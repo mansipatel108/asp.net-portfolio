@@ -16,12 +16,12 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="image">
-                                    <img src="/images/ezgif.com-maker__1_.gif" width="200" height="200">
+                                    <img src="../Images/sql.gif" class="img-circle" width="200" height="200">
                                 </span>
                                 <h4>
                                     <strong>Database</strong>
                                 </h4>
-                                <p>
+                                <p id="service">
                                     I provide cost-efficient and resizable capacity while managing time-consuming database administration tasks, 
                                     freeing you up to focus on your applications and business. 
                                 </p>
@@ -32,13 +32,13 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="image">
-                                    <img src="/images/microsoft1.gif" width="200" height="200">
+                                    <img src="../Images/microsoft1.gif" class="img-circle" width="200" height="200">
                                 </span>
                                 <h4>
                                     <strong>Windows Application</strong>
                                 </h4>
-                                <p>
-                                    I can create any kind of windows application by using C# for your business.
+                                <p id="service1">
+                                    I can create normal or MVC windows application in ASP.NET for your business.
                                 </p>
 
                             </div>
@@ -46,12 +46,12 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="image">
-                                    <img src="/images/learn-web-design_web-dev_mobile_apps.gif" width="200" height="200">
+                                    <img src="../Images/web.gif" class="img-circle" width="200" height="200">
                                 </span>
                                 <h4>
                                     <strong>Web Design & Development</strong>
                                 </h4>
-                                <p>
+                                <p id="service2">
                                     I can design or update your fully custom-built website.
                                    I can also build all aspects of web design from a simple website to an e-commerce website projects
                                     with online payment service according to your request and business goal.
@@ -61,13 +61,13 @@
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="image">
-                                    <img src="/images/9_dribbble.gif" width="200" height="200">
+                                    <img src="../Images/web1.gif" class="img-circle" width="200" height="200">
                                 </span>
                                 <h4>
                                     <strong>Graphic Design</strong>
                                 </h4>
-                                <p>
-                                    In Graphic Design I design/build Logo Design ,Business Cards, Email or Website Templates and Web Ads.
+                                <p id="service3">
+                                    In Graphic Design I design/build Logo Design ,Business Cards, Videos, Email or Website Templates and Web Ads.
                                 </p>
 
                             </div>

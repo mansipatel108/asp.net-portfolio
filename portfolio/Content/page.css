@@ -26,14 +26,14 @@ div.header h3 {
 
 /* Form  */
 form {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
     padding: 0 2% 0 2%;
     align: "center";
     margin-top: 5%;
 }
 
 label, input {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 2px;
     font-size: 1.4em;
     color:#380000;

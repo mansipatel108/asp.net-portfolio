@@ -40,24 +40,22 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
+     </br>
+
     <!-- JavaScript section --->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
     <script src="Scripts/app.js"></script>
-
     <div class="navbar">
         <ul class="blog-nav">
             <div class="navbar-text pull-left">
                 <p>Developed by Mansi Patel</p>
             </div>
             <div class="navbar-text pull-right">
-
                 <a href="https://github.com/mansipatel108">
                     <i class="fa fa-github fa-2x"></i></a>
+                </div>
         </ul>
-    </div>
-
-
     </div>
 </body>
 </html>

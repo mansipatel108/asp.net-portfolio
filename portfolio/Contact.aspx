@@ -18,27 +18,35 @@
     <main class="container">
         <div class="row">
             <div class="col-md-4 col-md-offset-6">
-
-                <form action="mailto:mansipatel896@gmail.com" enctype="text/plain" method="post">
-                    <form class="form-horizontal">
-                        <div class="form-group">
-                            <label for="name">Name:</label>
-                            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name:" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email:</label>
-                            <input type="email" class="form-control" id="email" name="email" placeholder="yourname@youremail.com" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="phone">Phone:</label>
-                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your contact number" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message:</label>
-                            <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter Your Message Here..." required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-lg">Send</button>
-                    </form>
+           <div class="form-group">
+                    <label class="control-label" for="FirstNameTextBox">FirstName: </label>  
+                <asp:TextBox runat="server"  CssClass="form-control" ID="FirstNameTextBox" placeholder="First Name" required="true"></asp:TextBox>
+                    <asp:RequiredFieldValidator CssClass="alert-danger" Display="Dynamic" ID="RequiredFieldValidator1" runat="server" ErrorMessage="First Name is Require!" SetFocusOnError="true" ControlToValidate="FirstNameTextBox"></asp:RequiredFieldValidator>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="LastNameTextBox">LastName: </label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="LastNameTextBox" placeholder="Last Name" required="true"> </asp:TextBox>
+                     <asp:RequiredFieldValidator CssClass="alert-danger" Display="Dynamic" ID="RequiredFieldValidator2" runat="server" ErrorMessage="Last Name is Require!" SetFocusOnError="true" ControlToValidate="LastNameTextBox"></asp:RequiredFieldValidator>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="EmailTextBox">Email: </label>
+                    <asp:TextBox runat="server" TextMode="SingleLine" CssClass="form-control" ID="EmailTextBox" placeholder="Email" required="true"> </asp:TextBox>
+                     <asp:RequiredFieldValidator CssClass="alert-danger"  Display="Dynamic" ID="RequiredFieldValidator3" runat="server" ErrorMessage="Email is Require!" SetFocusOnError="true" ControlToValidate="EmailTextBox"></asp:RequiredFieldValidator>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="ContactNumberTextBox">Contact Number: </label>
+                    <asp:TextBox runat="server" CssClass="form-control" ID="ContactNumberTextBox" placeholder="Contact Number" required="true"> </asp:TextBox>
+                     <asp:RequiredFieldValidator CssClass="alert-danger"  Display="Dynamic" ID="RequiredFieldValidator4" runat="server" ErrorMessage="Contact Number is Require!" SetFocusOnError="true" ControlToValidate="ContactNumberTextBox"></asp:RequiredFieldValidator>
+                </div>
+                <div class="form-group">
+                    <label class="control-label" for="MessgaeTextBox">Message: </label>
+                    <asp:TextBox runat="server" TextMode="MultiLine"  Display="Dynamic" Columns="3" Rows="3" CssClass="form-control" ID="MessageTextBox" placeholder="Message" required="true"> </asp:TextBox>
+                </div>
+                <div class="text-right">
+                    <a class="btn btn-warning btn-lg"  ID="CancelButton" href="Default.aspx"><i class="fa fa-arrow-circle-left fa" aria-hidden="true"></i> Cancel</a>
+                     <asp:Button runat="server" CssClass="btn btn-primary btn-lg" ID="SendButton" Text="Submit" OnClick="SubmitButton_Click" />
+                    </div>
+                   
             </div>
         </div>
     </main>

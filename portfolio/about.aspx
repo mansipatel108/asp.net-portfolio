@@ -16,23 +16,18 @@
         </section>
 
         <!-- About me Paragraph  -->
-        <p>
-            I am a student currently studying at Georgian College, Barrie, ON in a Computer Programmer (COPR) diploma program and
-     seeking a professional position in an organization to dedicate myself to the IT field as a keystone member 
-     of the team while continuing my education to further improve my performance in the workplace.
-            <br>
-            <br>
-            My abilities to troubleshoot software problems, work as a team player, and meet deadlines combined with my attention to
- detail would contribute to my success in your company.
- I possess web programming skills and MySQL, knowledge and experience of working with C#, HTML5, CSS, PHP, JavaScript(Nodejs, Expressjs, Angularjs), Bootstrap, API’s,
-  business writing skills, outstanding knowledge of Microsoft Office including Access and FTP. 
-  I also have intermediate skills in Photoshop, Flash, and excellent in use of Dreamweaver. I work well with others to provide information and give  solutions to potential and existing issues in a problem solving manner.
-   My outgoing and friendly nature allows me to interact well with other individuals at all levels and I am able to bridge the gap between technical and non-technical persons. I’m willing to work and learn more UI, digital marketing and front-end development.
-            <br>
-            <br>
-            I feel confident that, given the opportunity, 
-I can make an immediate contribution to your corporation. The enclosed <a href="http://gc200303640.computerstudi.es/resume/resume.html">Resume</a> summarizes my background and experience information.
- Thank you for your consideration, I am available to discuss further prospects at your convenience.
-        </p>
+        <div class="row">
+            <div class="col-xs-6 col-md-4">
+                    <img src="../Images/mansi1.jpg" width="200" height="200" class="img-circle">
+                          <h2> Mansi Patel </h2>
+                           <h3> Computer Programmer </h3>
+                    </div>
+           
+            <p id="para1">I'm a Computer Programming second year student, looking for a Co-op position for the Fall(September-December), 2016 and want to continue as a Full-time afterwards. </p>
+            
+            <p id="para2">Passionate Programmer, Web Developer & Web Designer who successfully develop vary websites and has been responsible in key programming languages like: HTML, CSS, PHP, ASP.NET (C#) JavaScript (nodejs, expressjs, angularjs), MYSQL and NOSQL Database(Mongo).
+                 Also comfortable working with front-end development tools, such as SASS, Bower, and Gulp, experienced in Bootstrap, font-awesome libraries and able to do continuous version contol development using GitHub. </p>
+
+        </div>
     </div>
 </asp:Content>
