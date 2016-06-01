@@ -1,5 +1,12 @@
-﻿body {
-    background-image: url("../Images/wall.jpg");
+﻿/**
+* File Name: page.css
+* Author Name: Mansi Patel
+* Website Name: http://aspnet-portfolio.azurewebsites.net/
+* Description:  This file contains all the css for Default.aspx and Contact.aspx
+*/
+
+body {
+    background-image: url("../Assets/Images/wall.jpg");
     background-repeat: space;
     background-size: cover;
     background-color: black;
@@ -39,6 +46,3 @@ label, input {
     color:#380000;
 }
 
-contact {
-    align: "center";
-}

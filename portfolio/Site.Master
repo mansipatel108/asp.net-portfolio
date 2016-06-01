@@ -1,7 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="portfolio.Site" %>
 
 <!DOCTYPE html>
-
 <html lang="en">
 <head runat="server">
     <meta charset="utf-8" />
@@ -12,17 +11,15 @@
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
     <link href="Content/app.css" rel="stylesheet" />
-
-
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
 
-     <div class="blog-masthead">
-      <div class="container">
-        <nav id="MenuPanel" class="blog-nav">
-        <ul class="nav navbar-nav navbar-right">
+    <div class="blog-masthead">
+        <div class="container">
+            <nav id="MenuPanel" class="blog-nav">
+                <ul class="nav navbar-nav navbar-right">
                     <li id="home" runat="server"><a class="blog-nav-item" href="Default.aspx"><i class="fa fa-home fa-lg"></i> Home</a></li>
                     <li id="about" runat="server"><a class="blog-nav-item" href="About.aspx"><i class="fa fa-info fa-lg"></i> About Me</a></li>
                     <li id="projects" runat="server"><a class="blog-nav-item" href="Projects.aspx"><i class="fa fa-th fa-lg"></i> My Projects</a></li>
@@ -30,9 +27,8 @@
                     <li id="contact" runat="server"><a class="blog-nav-item" href="Contact.aspx"><i class="fa fa-phone fa-lg"></i> Contact Me</a></li>
                 </ul>
             </nav>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
+    </div>
 
     <form id="form1" runat="server">
         <div>
@@ -40,8 +36,6 @@
             </asp:ContentPlaceHolder>
         </div>
     </form>
-     </br>
-
     <!-- JavaScript section --->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
@@ -54,7 +48,7 @@
             <div class="navbar-text pull-right">
                 <a href="https://github.com/mansipatel108">
                     <i class="fa fa-github fa-2x"></i></a>
-                </div>
+            </div>
         </ul>
     </div>
 </body>

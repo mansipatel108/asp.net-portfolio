@@ -20,11 +20,6 @@ namespace portfolio
             {
                 case "Home Page":
                     home.Attributes.Add("class", "active");
-                    home.Visible = false;
-                    about.Visible = false;
-                    projects.Visible = false;
-                    services.Visible = false;
-                    contact.Visible = false;
                     break;
                 case "About Me Page":
                     about.Attributes.Add("class", "active");

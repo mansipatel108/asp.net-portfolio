@@ -4,6 +4,8 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Net;
+using System.Net.Mail;
 
 namespace portfolio
 {
@@ -13,9 +15,11 @@ namespace portfolio
         {
 
         }
+
+       
         protected void SubmitButton_Click(object sender, EventArgs e)
         {
-            Response.Redirect("Default.aspx");
+           Response.Redirect("Default.aspx");
         }
         protected void CancelButton_Click(object sender, EventArgs e)
         {

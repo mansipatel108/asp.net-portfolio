@@ -1,109 +1,120 @@
-﻿body {
-    background-repeat:space;
-    background-size: auto;
-    background-color: rgb(254, 237, 214);
+﻿/**
+* File Name: background.css
+* Author Name: Mansi Patel
+* Website Name: http://aspnet-portfolio.azurewebsites.net/
+* Description:  This file contains all the css for About.aspx,Projects.aspx and Services.aspx
+*/
+
+body {
+    background-repeat: space;
+    background-size: cover;
+    background-color: rgb(232, 224, 220);
 }
 /* Section styles  */
-        section {
-        padding-top: 20px;
-        font-family: 'Times New Roman', Times, serif;
-        letter-spacing:2px;
-        font-size:1.4em;
-        color:  #000066;
-    }
+section {
+    padding-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-size: 1.4em;
+    color: #000066;
+}
 
 /* Paragraph   */
- img.img-circle{
-      margin-left: 100px;
-       margin-top: 20px;
-       width:250px;
-       height: 250px;
+img.img-circle {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
+     border: thick ;
 }
-  div.row h2{
-     text-decoration: none;
-       padding-left: 125px;
-       font-size: 30px;
-       font-weight: 500;
-       color: #000066;
-       font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
- }
-  div.row h3{
-      margin-top: 5px;
-     text-decoration: none;
-       padding-left: 110px;
-       font-size: 20px;
-       color: #000066;
-       font-weight: 200;
-       font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
- }
 
-div.row p#para1, p#para2, p#para3{
+div.row h2 {
+    text-decoration: none;
+    padding-left: 125px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #000066;
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.row h3 {
+    margin-top: 5px;
+    text-decoration: none;
+    padding-left: 110px;
+    font-size: 20px;
+    color: #000066;
+    font-weight: 200;
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.row p#para1, p#para2, p#para3 {
     padding-top: 35px;
     letter-spacing: 1px;
     color: #990066;
-       font-weight: 200;
-       font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: 200;
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
     margin: auto;
     text-align: justify;
     font-size: 20px;
     width: 80%;
     position: relative;
-    }
+}
 
-/* Links */ 
- p a:link {
+/* Links */
+p a:link {
     color: none;
     text-decoration: none;
     font-weight: 200;
     font-size: 22px;
 }
 
- p a:visited {
+p a:visited {
     color: none;
     text-decoration: none;
 }
- .img-thumbnail {
-       margin-left: 50px;
-       margin-top: 50px;
-       width:300px;
-       height: 200px;
-        }
 
-div.row p{
-       text-decoration: none;
-       padding-left: 60px;
-       font-size: 17px;
-       color:  #990066;
-       font-weight: 200;
-       font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
-         }
+.img-thumbnail {
+    margin-left: 50px;
+    margin-top: 50px;
+    width: 300px;
+    height: 200px;
+}
 
-p#service,p#service1,p#service2,p#service3 {
-       text-decoration: none;
-       padding-left: 10px;
-       font-size: 18px;
-       color: #990066;
-       font-weight: 300;
-       font-family:  Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
-         }
+div.row p {
+    text-decoration: none;
+    padding-left: 60px;
+    font-size: 17px;
+    color: #990066;
+    font-weight: 200;
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+}
 
-div.row h5{
-       text-decoration: none;
-       padding-left: 60px;
-       font-size: 20px;
-       font-weight: 200;
-       color: #000066;
-       font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
-         }
+p#service, p#service1, p#service2, p#service3 {
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 18px;
+    color: #990066;
+    font-weight: 300;
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+}
 
-div.row h4 strong{
-       text-decoration: none;
-       padding-left: 10px;
-       font-size: 18px;
-       font-weight: 200;
-       color:  #000066;
-       font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif; 
-         }
+div.row h5 {
+    text-decoration: none;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #000066;
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+}
+
+div.row h4 strong {
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 200;
+    color: #000066;
+    font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
+}
 
 div.row a:link {
     font-size: 15px;
@@ -111,20 +122,20 @@ div.row a:link {
     font-family: Rockwell, 'Courier Bold', Courier, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;
     font-weight: 200;
-    
 }
 
 div.row a:visited {
     font-size: 15px;
-    color:#000066;
-    font-family: 'Times New Roman', Times, serif; 
+    color: #000066;
+    font-family: 'Times New Roman', Times, serif;
     text-decoration: none;
     font-weight: 200;
-    
 }
-span img.img-circle{
-       margin-left: 1px;
-       margin-top: 40px;
-       width: 200px;
-       height: 200px;
+
+span img.img-circle {
+    margin-left: 1px;
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+     border: solid 2px black;
 }
