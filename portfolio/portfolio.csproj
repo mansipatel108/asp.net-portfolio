@@ -59,6 +59,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="Assets\Images\about.jpg" />
     <Content Include="Assets\Images\mansi1.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\app.css" />

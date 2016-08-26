@@ -24,7 +24,7 @@ Description:  This page contains the information about the author with picture. 
         <!-- About me Paragraph  -->
         <div class="row">
             <div class="col-xs-6 col-md-4">
-                <img src="../Assets/Images/mansi1.jpg" width="200" height="200" class="img-circle">
+                <img src="../Assets/Images/about.jpg" width="100" height="200" class="img-rounded">
                 <h2>Mansi Patel </h2>
                 <h3>Computer Programmer </h3>
             </div>

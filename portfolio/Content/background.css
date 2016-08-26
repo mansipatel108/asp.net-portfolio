@@ -73,11 +73,11 @@ p a:visited {
     text-decoration: none;
 }
 
-.img-thumbnail {
-    margin-left: 50px;
-    margin-top: 50px;
-    width: 300px;
-    height: 200px;
+.img-rounded {
+    margin-left: 120px;
+    margin-top: 10px;
+    width: 250px;
+    height: 350px;
 }
 
 div.row p {
